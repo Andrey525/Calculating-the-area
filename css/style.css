@@ -12,6 +12,7 @@
 }
 
 .word {
+    line-height: 32px;
     text-align: center;
     font-size: 24px;
 }
@@ -25,6 +26,14 @@ input[type="textbox"] {
     border-color: grey;
     background-color: rgb(189, 204, 219);
     border-style: solid;
+}
+
+input[type="textbox"]:hover {
+    background-color: rgb(188, 199, 209);
+}
+
+input[type="textbox"]:focus {
+    background-color: rgb(236, 225, 174);
 }
 
 table {

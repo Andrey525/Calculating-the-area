@@ -5,24 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
 </head>
 
 <body style="background: url(img/Фон.jpg)">
     <p class="title"><span>Вычисление площади квадрата</span></p>
-    <p class="word"><span>Выделите поле "Сторона"</span></p>
-    <form method=post>
+    <p class="word"><span>Выделите поле "Сторона" (onSelect)</span></p>
+    <form method=post name="form4" action="#">
         <table>
             <tr>
                 <td>
                     <p>Сторона:</p>
                 </td>
-                <td><input name="Storona" type=textbox></td>
+                <td><input id="Side" type=textbox value="0" onSelect="calcArea()"></td>
             </tr>
             <tr>
                 <td>
                     <p>Площадь:</p>
                 </td>
-                <td><input name="Area" type=textbox></td>
+                <td><input id="Area" type=textbox></td>
             </tr>
         </table>
     </form>
