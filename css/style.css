@@ -1,0 +1,12 @@
+.title span {
+    /* display: inline; */
+    background-color: rgba(248, 143, 45, 0.9);
+    padding: 0 10px 0 0;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-style: italic;
+    font-size: 32px;
+}
